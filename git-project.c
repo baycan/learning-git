@@ -37,4 +37,5 @@ void checking_issue1()
 {
 
 printf("issue1 problem countinue");
+printf("so close to fix issue1");
 }
