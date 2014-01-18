@@ -3,6 +3,7 @@
 
 void open_serial(void);
 void send_open_message(void);
+void checking_issue1();
 
 int main()
 {
@@ -16,6 +17,7 @@ printf("I am learning git");
 open_serial();//opening serial communication
 send_open_message(); //when open serial com,send ack
 
+checking_issue1();  //fixing something about issue1
 
 return 0;
 }
@@ -30,4 +32,9 @@ void send_open_message()
 {
 
 printf("Serial com now opened");
+}
+void checking_issue1()
+{
+
+printf("issue1 problem countinue");
 }
