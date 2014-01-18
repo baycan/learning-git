@@ -36,5 +36,5 @@ printf("Serial com now opened");
 void checking_issue2()
 {
 printf("checking for the issue2");
-
+printf("I am so close to fix issue2");
 }
